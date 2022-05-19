@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Danny Dealership(Car)</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+
+<body class="bg-dark text-white">
+    <div class="row justify-content-center">
+        <div class="col-7">
+            <h1 class="text-center">Shipment Form</h1>
+            <form action="/parcels" method="post">
+             <div class="form-group mt-2">
+                    <label for="name" class="form-label">Name Of Product:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group mt-2">
+                    <label for="length" class="form-label">Length:</label>
+                    <input type="number" class="form-control" id="length" name="length" required>
+                </div>
+                <div class="form-group mt-2">
+                    <label for="breadth" class="form-label">Breadth:</label>
+                    <input type="number" class="form-control" id="breadth" name="breadth" required>
+                </div>
+                <div class="form-group mt-2">
+                    <label for="height" class="form-label">Height:</label>
+                    <input type="number" class="form-control" id="height" name="height" required>
+                </div>
+                <div class="form-group mt-2">
+                    <label for="weight" class="form-label">Weight:</label>
+                    <input type="number" class="form-control" id="weight" name="weight" required>
+                </div>
+                <div class="text-center">
+                <button type="sumit" class="btn btn-light">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
